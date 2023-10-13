@@ -1,0 +1,61 @@
+.nav-link{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    ;
+
+}
+
+
+
+
+.division1{
+    background-color:#2E8B57 ;
+    text-align: center;
+    color: #e9f5dc;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif';         
+
+
+}
+
+
+.carousel-item{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    background-color: #e9f5dc;
+    font-size: 2em;         
+    margin-bottom: 20px;   
+    width: 30 px;     
+
+}
+
+
+.titulo-principal {
+    font-size: 2em;          /* Tamaño de letra más grande */
+    margin-bottom: 20px; } 
+
+.carousel-inner .carousel-item img {
+    width: 600px;  /* Adjust width as needed */
+    height: 400px; /* Adjust height as needed */
+    object-fit: cover; /* This ensures that images are resized correctly without being stretched or compressed */
+
+    max-width: 600px; /* Adjust max-width as needed */
+    max-height: 400px; /* Adjust max-height as needed */
+    margin: 0 auto; /* This centers the carousel if it's smaller than its container */
+
+
+
+    
+
+}
+
+
+class
+ul {
+    list-style-type: square;
+}
+
+.navbar {
+
+
+}
+
+
