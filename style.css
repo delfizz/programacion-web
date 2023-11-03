@@ -1,3 +1,7 @@
+body{
+  margin:0
+}
+
 .nav-link{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     ;
@@ -5,57 +9,171 @@
 }
 
 
+.container{
+    margin:0
+
+}
+
+.division3{
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  justify-content: space-evenly;
+  height:600px;
+  align-items: center;
+  align-content:space-around;
 
 
+
+}
+.gallery{
+  border: 1px solid #e9f5dc;
+  border-radius: 4px;
+  padding: 5px;
+  width: 180px;  
+
+}
+
+.desc2{
+  font-size-adjust: 2px;
+}
 .division1{
     background-color:#2E8B57 ;
     text-align: center;
     color: #e9f5dc;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif';         
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';         
 
+
+}
+
+.titulo-principal {
+    font-size: 2em;          
+    margin-bottom: 20px; } 
+
+.carousel-inner .carousel-item img {
+    width: 600px;  
+    height: 400px; 
+    object-fit: cover; 
+
+    max-width: 600px; 
+    max-height: 400px;
+    margin: 0 auto; 
 
 }
 
 
 .carousel-item{
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';
     text-align: center;
-    background-color: #e9f5dc;
+    background-color: #2E8B57;
     font-size: 2em;         
     margin-bottom: 20px;   
     width: 30 px;     
 
 }
 
-
-.titulo-principal {
-    font-size: 2em;          /* Tamaño de letra más grande */
-    margin-bottom: 20px; } 
-
-.carousel-inner .carousel-item img {
-    width: 600px;  /* Adjust width as needed */
-    height: 400px; /* Adjust height as needed */
-    object-fit: cover; /* This ensures that images are resized correctly without being stretched or compressed */
-
-    max-width: 600px; /* Adjust max-width as needed */
-    max-height: 400px; /* Adjust max-height as needed */
-    margin: 0 auto; /* This centers the carousel if it's smaller than its container */
-
-
-
-    
-
-}
-
-
-class
 ul {
     list-style-type: square;
 }
 
-.navbar {
+.division2 { 
+    background-color:#e9f5dc;
+    text-align: center;
+    color: #10291b;
+
+    padding: 5% 0;
+    padding-right: 2%;
+
+}
+
+.aboutus{
+  border-radius: 50%;
+  width:300; 
+  height: 300;
+  overflow:hidden; 
+  /* overflow: para que no se salga del circulo la img */
 
 
 }
+
+#mision{
+    text-align: left;
+    margin: 5%; 
+    
+}
+
+.gridd{
+    padding: 50px 0;
+}
+
+.gridd {  
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      ". .";
+  }
+
+.bulletmision{
+    text-align: left;
+}
+
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  } 
+/* de cual es este? */
+ 
+  
+  .columnside {
+    width: 50%; 
+  }
+  
+  .derecha{
+    text-align: right; 
+}
+
+
+
+
+/* .division7 {  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 0.5fr 2.2fr 0.4fr;
+  gap: 0px 0px;
+  padding: 0%;
+  grid-auto-flow: row;
+  grid-template-areas:
+    ". . ."
+    ". . ."
+    "footer footer footer"; */
+  
+  
+  .division7{
+  height:9vw; 
+  }  
+
+.logofoot{ 
+  display:flex; 
+  align-items: center;
+
+
+}
+
+
+
+  
+
+
 
 
