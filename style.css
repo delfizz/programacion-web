@@ -41,7 +41,9 @@ body{
     background-color:#2E8B57 ;
     text-align: center;
     color: #e9f5dc;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';         
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';  
+    display:flex;
+    flex-wrap: wrap;       
 
 
 }
@@ -57,18 +59,22 @@ body{
 
     max-width: 600px; 
     max-height: 400px;
-    margin: 0 auto; 
+    /* margin: 0 auto;  */
+    align-content: center;
+    
 
 }
 
 
 .carousel-item{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';
-    text-align: center;
     background-color: #2E8B57;
     font-size: 2em;         
     margin-bottom: 20px;   
-    width: 30 px;     
+    width: 30 px;    
+    align-content: center; 
+    padding-top: 10%;
+  
 
 }
 
