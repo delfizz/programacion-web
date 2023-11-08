@@ -1,9 +1,13 @@
 .contact {
-    margin: 10%;
+    margin-left: 10%;
+    margin-right:10%;
+    margin-top: 3%;
     text-align: center;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';
 }
 
-
+.btn{
+    margin-top: 5%;
+}
 
 
