@@ -65,24 +65,19 @@ body{
     margin-bottom: 20px; } 
 
 .carousel-inner .carousel-item img {
-    /* width: 600px;  
+    width: 600px;  
     height: 400px; 
-    object-fit: cover;  */
-
-    width: 100%;  /* Adjust to your specific design */
-    height: auto;  /* This ensures images maintain their aspect ratio */
     object-fit: cover;
-    max-width: 100%;  /* Allows images to scale down with the container width */
+    max-width: 100%;  
     max-height: auto; 
-
-    /* max-width: 600px; 
-    max-height: 400px; */
     margin: 0 auto; 
-    
-
 }
 
-
+.logo.img{
+    width: 100%;
+    height: auto;
+    
+}
 .carousel-item{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';
     background-color: #2E8B57;
@@ -91,7 +86,6 @@ body{
     width: 30 px;    
     align-content: center; 
     padding-top: 10%;
-
 }
 
 ul {
