@@ -9,10 +9,7 @@ body{
 }
 
 
-.container{
-    margin:0
 
-}
 
 .division3{
 
@@ -38,6 +35,7 @@ body{
 
 }
 
+
 .desc2{
   font-size-adjust: 2px;
 }
@@ -45,12 +43,14 @@ body{
     background-color:#2E8B57 ;
     text-align: center;
     color: #e9f5dc;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';         
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';  
     
 
 }
 
 .logfoodies{
+  width: 100%;
+  height: auto;
 
 }
 .desc{
@@ -109,6 +109,15 @@ ul {
   height: 300;
   overflow:hidden; 
   /* overflow: para que no se salga del circulo la img */
+
+
+}
+.container{
+  margin:0;
+  display: flex;
+  flex-wrap: wrap;
+
+
 
 
 }
