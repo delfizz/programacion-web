@@ -204,8 +204,9 @@ ul {
   
   
   .division7{
-  height:9vw; 
+  height:6vw; 
   }  
+
 
 .logofoot{ 
   display:flex; 
@@ -214,7 +215,14 @@ ul {
 
 }
 
-
+.division7 img{
+  width:20%;
+  height:auto; 
+  display:flex;
+  align-content:center;
+  max-width: 100%;
+  max-height: auto;
+}
 
   
 
