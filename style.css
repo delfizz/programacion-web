@@ -36,9 +36,7 @@ body{
 }
 
 
-.desc2{
-  font-size-adjust: 2px;
-}
+
 .division1{
     background-color:#2E8B57 ;
     text-align: center;
@@ -54,10 +52,10 @@ body{
 
 }
 .desc{
-  font-size: 2vw;
+  font-size: 1.5vw;
 }
 .desc2{ 
-  font-size: 1 vw;
+  font-size: 1vw;
 
 }
 .titulo-principal {
