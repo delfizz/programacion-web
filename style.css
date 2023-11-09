@@ -42,7 +42,8 @@ body{
     text-align: center;
     color: #e9f5dc;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';  
-    
+    display:flex; 
+    flex-wrap:wrap; 
 
 }
 
