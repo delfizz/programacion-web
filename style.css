@@ -42,8 +42,7 @@ body{
     text-align: center;
     color: #e9f5dc;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';  
-    display:flex; 
-    flex-wrap:wrap; 
+
 
 }
 
@@ -103,10 +102,11 @@ ul {
 }
 
 .aboutus{
-  border-radius: 50%;
-  width:300; 
-  height: 300;
-  overflow:hidden; 
+    width: 60%; 
+    height: 60%; 
+    overflow: hidden;
+    border-radius: 50%; 
+    align-self: center;
   /* overflow: para que no se salga del circulo la img */
 
 
