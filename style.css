@@ -1,5 +1,6 @@
 body{
-  margin:0
+  margin:0;
+  padding:0; 
 }
 
 .nav-link{
@@ -187,7 +188,10 @@ ul {
 
 .der { grid-area: right; }
 
-
+.content-wrapper {
+  display: flex; 
+  align-items: center; 
+}
 #abtus{
   text-align:center;
   
@@ -206,6 +210,7 @@ ul {
   
   .division7{
   height:6vw; 
+  align-items:center;
   }  
 
 
@@ -220,7 +225,7 @@ ul {
   width:20%;
   height:auto; 
   display:flex;
-  align-content:center;
+  align-items:center;
   max-width: 100%;
   max-height: auto;
 }
