@@ -211,6 +211,9 @@ ul {
   .division7{
   height:6vw; 
   align-items:center;
+  display:flex; 
+  align-items: center;
+  justify-content: center;
   }  
 
 
@@ -224,8 +227,7 @@ ul {
 .division7 img{
   width:20%;
   height:auto; 
-  display:flex;
-  align-items:center;
+
   max-width: 100%;
   max-height: auto;
 }
