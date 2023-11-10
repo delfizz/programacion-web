@@ -1,4 +1,57 @@
-@media screen and (max-width:768px){
+@media screen and (max-width:345px){
+
+
+
+    div.gallery img {
+        width: 80%;
+        height: auto;
+        max-width: 100%;
+       
+      }
+
+      .desc{
+        font-size: 4vw;
+        padding:0.5px; 
+        line-height:5px;
+
+      }
+
+      .desc2{
+        font-size:2.5vw; 
+      }
+      .gallery{
+        padding:4px; 
+      }
+      .division2{
+        padding-top: 2%;
+        padding-bottom: 1%;
+      }
+
+
+      .titulo-principal {
+        font-size: 9em;          
+        padding-top: 10%; 
+    } 
+
+
+        .carousel-inner .carousel-item img {
+            width:100%;
+            height:auto; 
+        }
+
+        .divion1{
+            padding-left: 15%;
+            padding-right:15%;
+
+        }
+      
+         .logofoot{
+            padding-top: 4%;
+            padding-bottom:4%;
+
+         }     
+
+    }
 
 
 
@@ -30,5 +83,9 @@
 
 
 
-    
+
+
+
+
+
 }
